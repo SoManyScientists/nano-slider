@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>slider</title>
+  <style>
+    #slider {
+      width: 200px;
+      overflow: hidden;
+    }
+
+    ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      width: 900000px;
+    }
+
+    li {
+      width: 200px;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div id="slider">
+    <button type="text" data-action="prev">Prev</button>
+    <button type="text" data-action="next">Next</button>
+    <ul>
+      <li class="slide"><img src="http://placekitten.com/g/200/300" /></li>
+      <li class="slide"><img src="http://placekitten.com/g/200/300" /></li>
+      <li class="slide"><img src="http://placekitten.com/g/200/300" /></li>
+      <li class="slide"><img src="http://placekitten.com/g/200/300" /></li>
+      <li class="slide"><img src="http://placekitten.com/g/200/300" /></li>
+    </ul>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="../lib/nano-slider.js"></script>
+</body>
+</html>
